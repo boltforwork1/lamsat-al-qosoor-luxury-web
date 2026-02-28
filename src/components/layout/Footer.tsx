@@ -8,12 +8,9 @@ export default function Footer() {
     <footer className="bg-black border-t border-white/5 pt-20 pb-10 px-6 md:px-12 lg:px-24">
       <div className="container mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
         <div className="space-y-6">
-          <Link to="/" className="flex items-center group">
-            <img
-              src="/logo.png"
-              alt="Lamsat Al Qosoor"
-              className="h-16 w-auto object-contain group-hover:scale-105 transition-transform duration-500"
-            />
+          <Link to="/" className="flex flex-col group">
+            <span className="font-serif text-2xl gold-text tracking-[0.3em] font-bold">LAMSAT AL QOSOOR</span>
+            <span className="text-xs tracking-[0.4em] text-muted-foreground uppercase">لمسة القصور</span>
           </Link>
           <p className="text-muted-foreground text-sm leading-relaxed max-w-xs">
             Specialized in luxury interior and exterior decoration, delivering passion and craftsmanship to every project.
